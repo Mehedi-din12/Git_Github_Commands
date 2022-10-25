@@ -7,3 +7,15 @@ $ git add --all
 $ git commit -m "message"
 
 $ git push
+
+$ git branch
+
+$ git branch newBranchFile
+
+$ git checkout newBranchFile
+
+$ git merge newBranchFile
+
+$ git diff mainBranch newBranchFile
+
+$ git branch --delete newBranchFile
