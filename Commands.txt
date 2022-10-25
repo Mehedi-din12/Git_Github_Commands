@@ -19,3 +19,5 @@ $ git merge newBranchFile
 $ git diff mainBranch newBranchFile
 
 $ git branch --delete newBranchFile
+
+$ git push -u origin main
