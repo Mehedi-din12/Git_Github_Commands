@@ -28,4 +28,6 @@ $ git branch -d branchName
 
 $ git push origin --delete branchName
 
+$ git rm -r folderName
 
+$ git rm fileName(sometimes need to add extension)
