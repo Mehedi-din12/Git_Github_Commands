@@ -28,4 +28,48 @@ $ git branch -d branchName
 
 $ git push origin --delete branchName
 
+//learnwithsumit*****************************************************
+//working directory,local repo, stage,commit, remotw repo.
+
+mkdir folderName
+cd floderName
+touch fileName.ext
+pwd
+nane fileName.ext
+cd../ :back to the folder
+git init
+git clone
+ls
+git status
+git add --all
+git reset
+git add -A
+git add .
+git add *
+git add fileName.ext
+git add folderName/fileName.ext
+git *.ext
+git commit -m "message or comment"
+git reset HEAD~
+git reset --hard
+git rm fileName.ext
+git rm fileName.ext -f
+git rm --cached filename.ext
+git rm folderName
+git rm -r folderName
+
+git branch
+git branch branchName
+git checkout branchName
+git merge branchNameWith -m "comment"  :prior->merge the main to dev branch in stayed on dev branch; finally-->merge the dev branch to main branch in stayed on main branch
+
+git push branchName
+git push origin branchName
+git pull(git fetch+merge)
+
+git fetch
+git merge
+
+clear
+******************************************************************
 
