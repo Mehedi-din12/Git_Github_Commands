@@ -28,6 +28,7 @@ $ git branch -d branchName
 
 $ git push origin --delete branchName
 
+<<<<<<< HEAD
 //learnwithsumit*****************************************************
 //working directory,local repo, stage,commit, remotw repo.
 
@@ -72,4 +73,8 @@ git merge
 
 clear
 ******************************************************************
+=======
+$ git rm -r folderName
+>>>>>>> 1721cd848cdf3ff3960f68558a460a48a9a04c07
 
+$ git rm fileName(sometimes need to add extension)
